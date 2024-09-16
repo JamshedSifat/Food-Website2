@@ -97,18 +97,18 @@ section .main .main_text span{
     line-height: 30px;
     font-size: 80px;
 }
-section .main .main_image{
-    width:70px;
+section .main .main_image img{
+    width:500px;
     position: relative;
-    margin-left: 120px;
-    bottom: 70px;
+    margin-left: 270px;
+
 }
 section p{
-    width:200px;
+    width:300px;
     text-align: justify;
     position: relative;
     font-size: 20px;
-    left: 10px;
+    left: 30px;
     bottom:120px;
     line-height: 25px;
     text-align: left;
@@ -163,7 +163,7 @@ section p{
 }
 section .main_butn{
     font-size: 30px;
-    position: absolute;
+    position: relative;
     width: 160px;
     cursor: pointer;
     left: 50px;
@@ -197,9 +197,9 @@ section .main_btn:hover i{
     justify-content: space-around;
 }
 .about .about_main .image img{
-    width: 600px;
+    width: 650px;
     position: relative;
-    bottom: 200px;
+    top: 100px;
 }
 
 .about .about_main .About_text h1 span{
@@ -237,7 +237,7 @@ font-size: 35px;
     background-position: center;
     border-radius: 20px;
     margin-top:200px;
-    margin-left: 550px;
+    margin-left: 610px;
     color: #fff;
     text-decoration: none;
 }
